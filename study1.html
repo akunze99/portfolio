@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,700,900&display=swap" rel="stylesheet">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/main.css?v=2.2.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <header data-aos="fade-down">
+        <div class="top-logo"><a href="index.html"></a>
+        </div>
+    </header>
+
+
+    <article data-aos="fade-up">
+
+
+
+      <h4>Innovate Wellness Challenge</h4>
+
+      <div class="top-image" id="top-image1">
+      </div>
+
+      <a href="index.html">BACK</a>
+
+      <div class="body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Vivamus at augue eget arcu dictum. Aliquam purus sit amet luctus venenatis lectus. Vulputate mi sit amet mauris commodo quis imperdiet. Aliquam etiam erat velit scelerisque in dictum non consectetur. In ante metus dictum at tempor commodo ullamcorper a lacus. Ipsum a arcu cursus vitae. Euismod elementum nisi quis eleifend quam adipiscing. Placerat vestibulum lectus mauris ultrices eros in cursus. Proin nibh nisl condimentum id venenatis a condimentum vitae sapien. Aenean vel elit scelerisque mauris pellentesque.</p>
+          <div class="side-images">
+            <div class="row">
+              <img src="img/empathize.jpg" class="side-image">
+              <img src="img/define.jpg" class="side-image">
+              <img src="img/ideate.jpg" class="side-image">
+            </div>
+          </div>
+      </div>
+        
+    </article>
+
+    <footer>
+        <p>&copy; 2020 Alexander F. Kunze. All rights reserved.</p>
+    </footer>
+  
+
+  
+  <script src="js/main.js?v=2.2.0"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+  <script type="text/javascript">
+        AOS.init();
+        var myVar;
+
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+          document.getElementById("loader").style.opacity = "0";
+          AOS.init({
+            duration: 800,
+          });
+        }
+
+        document.querySelector("body").addEventListener("load", myFunction());
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>
