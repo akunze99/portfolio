@@ -77,6 +77,10 @@ header {
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+	animation-direction: alternate;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 @keyframes fade {
@@ -467,8 +471,18 @@ footer p {
 
 /* ====================== INDIVIDUAL PORTFOLIO PAGES ===================================== */
 
-.top-logo a {
+.visible {
+	display: block;
+}
 
+.invisible {
+	display: none;
+}
+
+.top-logo a {
+	display:block;
+	width:100%;
+	height: 100px;
 }
 
 h2, h4 {
@@ -482,15 +496,23 @@ h2, h4 {
 
 .body {
 	font-family: 'Roboto';
-	background-color:#B4E3FF;
+	background: rgb(225,237,247);
+    background: -webkit-linear-gradient(rgba(225,237,247,1) 0%, rgba(180,227,255,1) 100%);
+    background: -o-linear-gradient(rgba(225,237,247,1) 0%, rgba(180,227,255,1) 100%);
+    background: linear-gradient(rgba(225,237,247,1) 0%, rgba(180,227,255,1) 100%);
 	color:#051E34;
 	padding:30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 
 .top-image {
 	width: 100%;
 	height:200px;
+
 }
 
 #top-image1 {
@@ -499,8 +521,40 @@ h2, h4 {
 	background-position: center;
 }
 
+#top-image2 {
+	background-image: url('../img/uctv-banner-01.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#top-image5 {
+	background-image: url('../img/redwave-animation-template-01.png');
+	background-size: cover;
+	background-position: center;
+}
+
+
 .content {
 	padding:20px;
+	font-size: 18px;
+}
+
+.back {
+	position: absolute;
+	transform: rotate(180deg);
+	left:10px;
+	top:1.1vw;
+	bottom:0px;
+	width:4vw;
+	height:4vw;
+	max-height:50px;
+	padding:5px;
+	transition: 0.3s;
+}
+
+.back:hover {
+	transform: rotate(180deg) scale(1.2);
+	cursor: pointer;
 }
 
 
@@ -682,7 +736,7 @@ h2, h4 {
 		font-size: 16px;
 	}
 
-	/* Individual Portfolio Pages */
+	/* MEDIA Individual Portfolio Pages */
 
 	h4 {
 		font-size: 3vw;
@@ -694,19 +748,96 @@ h2, h4 {
 	}
 
 	.side-images {
-		display: relative;
+		margin-bottom: 50px;
+	}
+
+	.side-images .row {
+		justify-content: center;
+		align-items: center;
 	}
 
 	.side-image {
-		width:30%;
+		width:50%;
+		max-width:300px;
 		margin:0 10px;
+		transition: 0.5s;
+		box-shadow:4px 4px 5px rgba(0,0,0,0.2);
+		transition:0.3s;
+	}
+
+	.side-image:hover {
+		box-shadow:8px 8px 5px rgba(0,0,0,0.2);
+		z-index:999;
+	}
+
+	#side-image1 {
+		transform: translate(50px, -50px);
+	}
+
+	#side-image3 {
+		transform: translate(-50px, 50px);
+	}
+
+	#side-image4 {
+		transform: translate(50px, -50px);
+	}
+
+	.side-image:hover {
+		cursor: pointer;
 	}
 
 	.body {
-		display: flex;
-		padding: 30px 60px;
+		padding:0 6rem;
 	}
 
+	.body .content {
+		margin-bottom: 100px;
+	}
+
+	h5 {
+		font-family: 'Overpass', sans-serif;
+		font-size: 54px;
+		color: #003D6D;
+		text-transform: uppercase;
+		font-weight: 900;
+		transform: translate(-50px, 30px);
+	}
+
+	.body p {
+		max-width:950px;
+		background-color: #E1EDF7;
+		padding:20px;
+		box-shadow:0px 2px 5px rgba(0,0,0,0.2);
+	}
+
+	.overlay {
+		position: fixed;
+		width:600px;
+		z-index: 999;
+		background-color: #3998D1;
+		padding:20px;
+		margin:30px auto; /* Will not center vertically and won't work in IE6/7. */
+		left: 0;
+		right: 0;
+		box-shadow:0 3px 5px rgba(0,0,0,0.3);
+	}
+
+	.overlay-img {
+		margin-bottom: -6px;
+	}
+
+	.x {
+		position: absolute;
+		width:50px;
+		padding: 10px;
+		background-color: #3998D1;
+		top:0;
+		right:0;
+	}
+
+	.x:hover {
+		cursor:pointer;
+	}
 }
 
 
