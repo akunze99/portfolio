@@ -267,6 +267,14 @@ h1 {
 	background-color: white;
 }
 
+.sublabel {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+	color:#B4E3FF;
+	margin-left: 5px;
+}
+
 #work1 {
 	background-image: url('../img/joker-01.png');
 	background-size: cover;
@@ -298,9 +306,9 @@ h1 {
 }
 
 #work6 {
-	background-image: url('../img/beatles.jpg');
+	background-image: url('../img/millbrook_Page_01.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position:top;
 }
 
 #work7 {
@@ -316,32 +324,15 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+#work9 {
+	background-image: url('../img/noms.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 /* About Me */
 
-.img {
-	width:100%;
-	height: 200px;
-	background: black;
-	opacity:0.8;
-}
-
-#img1 {
-	background-image: url('../img/me1.jpg');
-	background-size: 100%;
-	background-position: 50% 30%;
-}
-
-#img2 {
-	background-image: url('../img/me2.jpg');
-	background-size: 100%;
-	background-position: 50% 75%;
-}
-
-#img3 {
-	background-image: url('../img/me3.jpg');
-	background-size: 100%;
-	background-position: 50% 50%;
-}
 
 .button {
 	font-family: 'Roboto';
@@ -472,7 +463,7 @@ footer p {
 /* ====================== INDIVIDUAL PORTFOLIO PAGES ===================================== */
 
 .visible {
-	display: block;
+	display: flex;
 }
 
 .invisible {
@@ -527,10 +518,26 @@ h2, h4 {
 	background-position: center;
 }
 
+#top-image3 {
+	background-image: url('../img/pillar-banner-01.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#top-image4 {
+	background-image: url('../img/bbb-banner-01.png');
+	background-size: cover;
+	background-position: center;
+}
+
 #top-image5 {
 	background-image: url('../img/redwave-animation-template-01.png');
 	background-size: cover;
 	background-position: center;
+}
+
+.side-image {
+	background-color: white;
 }
 
 
@@ -665,6 +672,7 @@ h2, h4 {
 		justify-content: center;
 		align-items: center;
 		width:100%;
+		height: 100%;
 		min-height: 300px;
 	}
 
@@ -732,6 +740,25 @@ h2, h4 {
 		transition: 1s;
 	}
 
+	.body2 {
+		background-color:#B4E3FF;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+		padding:20px;
+	}
+
+	.body2 p {
+		max-width:950px;
+		margin-top:10px;
+	}
+
+	.img-me {
+		max-width: 950px;
+	}
+
+
 	footer {
 		font-size: 16px;
 	}
@@ -748,7 +775,8 @@ h2, h4 {
 	}
 
 	.side-images {
-		margin-bottom: 50px;
+		margin-bottom: 100px;
+		width:50%;
 	}
 
 	.side-images .row {
@@ -758,7 +786,6 @@ h2, h4 {
 
 	.side-image {
 		width:50%;
-		max-width:300px;
 		margin:0 10px;
 		transition: 0.5s;
 		box-shadow:4px 4px 5px rgba(0,0,0,0.2);
@@ -770,24 +797,20 @@ h2, h4 {
 		z-index:999;
 	}
 
-	#side-image1 {
-		transform: translate(50px, -50px);
+	#side-image1, #side-image6 {
+		transform: translate(100px, -50px);
 	}
 
-	#side-image3 {
-		transform: translate(-50px, 50px);
+	#side-image3, #side-image8 {
+		transform: translate(-100px, 50px);
 	}
 
 	#side-image4 {
-		transform: translate(50px, -50px);
+		transform: translate(100px, -50px);
 	}
 
 	.side-image:hover {
 		cursor: pointer;
-	}
-
-	.body {
-		padding:0 6rem;
 	}
 
 	.body .content {
@@ -811,8 +834,8 @@ h2, h4 {
 	}
 
 	.overlay {
+		width: 75%;
 		position: fixed;
-		width:600px;
 		z-index: 999;
 		background-color: #3998D1;
 		padding:20px;
@@ -820,10 +843,13 @@ h2, h4 {
 		left: 0;
 		right: 0;
 		box-shadow:0 3px 5px rgba(0,0,0,0.3);
+		justify-content: center;
+		align-items: center;
 	}
 
 	.overlay-img {
-		margin-bottom: -6px;
+		max-height: 700px;
+		background-color: white;
 	}
 
 	.x {
