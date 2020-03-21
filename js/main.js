@@ -131,6 +131,9 @@ var workFive = document.querySelector('#work5');
 var workSix = document.querySelector('#work6');
 var workSeven = document.querySelector('#work7');
 var workEight = document.querySelector('#work8');
+var uxOne = document.querySelector('#work9');
+var uxTwo = document.querySelector('#work10');
+var vidOne = document.querySelector('#work13');
 
 
 workOne.addEventListener("mouseover", function(){
@@ -141,6 +144,9 @@ workOne.addEventListener("mouseover", function(){
 		workSix.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workOne.addEventListener("mouseout", function(){
 		workTwo.style.opacity = "1";
@@ -150,6 +156,9 @@ workOne.addEventListener("mouseout", function(){
 		workSix.style.opacity = "1";
 		workSeven.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workTwo.addEventListener("mouseover", function(){
@@ -160,6 +169,9 @@ workTwo.addEventListener("mouseover", function(){
 		workSix.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workTwo.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -169,6 +181,9 @@ workTwo.addEventListener("mouseout", function(){
 		workSix.style.opacity = "1";
 		workSeven.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workThree.addEventListener("mouseover", function(){
@@ -179,6 +194,9 @@ workThree.addEventListener("mouseover", function(){
 		workSix.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workThree.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -188,6 +206,9 @@ workThree.addEventListener("mouseout", function(){
 		workSix.style.opacity = "1";
 		workSeven.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workFour.addEventListener("mouseover", function(){
@@ -198,6 +219,9 @@ workFour.addEventListener("mouseover", function(){
 		workSix.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workFour.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -207,6 +231,9 @@ workFour.addEventListener("mouseout", function(){
 		workSix.style.opacity = "1";
 		workSeven.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workFive.addEventListener("mouseover", function(){
@@ -217,6 +244,9 @@ workFive.addEventListener("mouseover", function(){
 		workSix.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workFive.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -226,6 +256,9 @@ workFive.addEventListener("mouseout", function(){
 		workSix.style.opacity = "1";
 		workSeven.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workSix.addEventListener("mouseover", function(){
@@ -236,6 +269,9 @@ workSix.addEventListener("mouseover", function(){
 		workFive.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workSix.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -245,6 +281,9 @@ workSix.addEventListener("mouseout", function(){
 		workFive.style.opacity = "1";
 		workSeven.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workSeven.addEventListener("mouseover", function(){
@@ -255,6 +294,9 @@ workSeven.addEventListener("mouseover", function(){
 		workFive.style.opacity = "0.7";
 		workSix.style.opacity = "0.7";
 		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workSeven.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -264,6 +306,9 @@ workSeven.addEventListener("mouseout", function(){
 		workFive.style.opacity = "1";
 		workSix.style.opacity = "1";
 		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
 
 workEight.addEventListener("mouseover", function(){
@@ -274,6 +319,9 @@ workEight.addEventListener("mouseover", function(){
 		workFive.style.opacity = "0.7";
 		workSix.style.opacity = "0.7";
 		workSeven.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
 	});
 workEight.addEventListener("mouseout", function(){
 		workOne.style.opacity = "1";
@@ -283,7 +331,86 @@ workEight.addEventListener("mouseout", function(){
 		workFive.style.opacity = "1";
 		workSix.style.opacity = "1";
 		workSeven.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
 	});
+
+uxOne.addEventListener("mouseover", function(){
+		workOne.style.opacity = "0.7";
+		workTwo.style.opacity = "0.7";
+		workThree.style.opacity = "0.7";
+		workFour.style.opacity = "0.7";
+		workFive.style.opacity = "0.7";
+		workSix.style.opacity = "0.7";
+		workSeven.style.opacity = "0.7";
+		workEight.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
+	});
+uxOne.addEventListener("mouseout", function(){
+		workOne.style.opacity = "1";
+		workTwo.style.opacity = "1";
+		workThree.style.opacity = "1";
+		workFour.style.opacity = "1";
+		workFive.style.opacity = "1";
+		workSix.style.opacity = "1";
+		workSeven.style.opacity = "1";
+		workEight.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		vidOne.style.opacity = "1";
+	});
+
+uxTwo.addEventListener("mouseover", function(){
+		workOne.style.opacity = "0.7";
+		workTwo.style.opacity = "0.7";
+		workThree.style.opacity = "0.7";
+		workFour.style.opacity = "0.7";
+		workFive.style.opacity = "0.7";
+		workSix.style.opacity = "0.7";
+		workSeven.style.opacity = "0.7";
+		workEight.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+		vidOne.style.opacity = "0.7";
+	});
+uxTwo.addEventListener("mouseout", function(){
+		workOne.style.opacity = "1";
+		workTwo.style.opacity = "1";
+		workThree.style.opacity = "1";
+		workFour.style.opacity = "1";
+		workFive.style.opacity = "1";
+		workSix.style.opacity = "1";
+		workSeven.style.opacity = "1";
+		workEight.style.opacity = "1";
+		uxOne.style.opacity = "1";
+		vidOne.style.opacity = "1";
+	});
+
+vidOne.addEventListener("mouseover", function(){
+		workOne.style.opacity = "0.7";
+		workTwo.style.opacity = "0.7";
+		workThree.style.opacity = "0.7";
+		workFour.style.opacity = "0.7";
+		workFive.style.opacity = "0.7";
+		workSix.style.opacity = "0.7";
+		workSeven.style.opacity = "0.7";
+		workEight.style.opacity = "0.7";
+		uxTwo.style.opacity = "0.7";
+		uxOne.style.opacity = "0.7";
+	});
+vidOne.addEventListener("mouseout", function(){
+		workOne.style.opacity = "1";
+		workTwo.style.opacity = "1";
+		workThree.style.opacity = "1";
+		workFour.style.opacity = "1";
+		workFive.style.opacity = "1";
+		workSix.style.opacity = "1";
+		workSeven.style.opacity = "1";
+		workEight.style.opacity = "1";
+		uxTwo.style.opacity = "1";
+		uxOne.style.opacity = "1";
+	});
+
 
 
 

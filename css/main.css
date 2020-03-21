@@ -332,6 +332,14 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+#work13 {
+	background-image: url('../img/hopson-thumbnail.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
 /* About Me */
 
 #description {

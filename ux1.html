@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,700,900&display=swap" rel="stylesheet">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/main.css?v=2.5.0">
+  <link rel="stylesheet" href="css/main.css?v=2.6.0">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
@@ -40,132 +40,44 @@
 
 
       <div class="body">
-<<<<<<< Updated upstream
-          <div class="content" data-aos="fade-up" >
-            <h5>The Project</h5>
-            <p>
-            To rename and re brand the organization that ____(what they do)_______, which was called Wellness Case Competition, a name that didn’t communicate the organizations function or the excitement it was meant to generate.</p>
-          </div>
-          <div class="side-images" data-aos="fade-up">
-            <div class="row">
-             <img src="img/nom-login.png" class="side-image" id="side-image1">
-              <img src="img/nom-account.png" class="side-image" id="side-image2">
-              <img src="img/nom-search.png" class="side-image" id="side-image3">
-            </div>
-          </div>
-      </div>
-        
-    </article>
-
-    <footer>
-        <p>&copy; 2020 Alexander F. Kunze. All rights reserved.</p>
-    </footer>
-  
-
-  
-  <script src="js/main.js?v=2.5.0"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-  </script>
-  <script type="text/javascript">
-        AOS.init();
-        var myVar;
-
-        function myFunction() {
-          myVar = setTimeout(showPage, 3000);
-        }
-
-        function showPage() {
-          document.getElementById("loader").style.opacity = "0";
-          AOS.init({
-            duration: 800,
-          });
-        }
-
-        document.querySelector("body").addEventListener("load", myFunction());
-
-    function overlayCheck(x) {
-    if (x.matches) {
-        var sideImageOne = document.querySelector('#side-image1');
-        var sideImageTwo = document.querySelector('#side-image2');
-        var sideImageThree = document.querySelector('#side-image3');
-        var overlay = document.querySelector('.overlay');
-        var overlayImage = document.querySelector('.overlay-img');
-        var x = document.querySelector('.x');
-
-        sideImageOne.addEventListener("click", function(){
-          overlay.classList.add('visible');
-          overlay.classList.remove('invisible');
-          overlayImage.src = "img/nom-login.png";
-        })
-
-        sideImageTwo.addEventListener("click", function(){
-          overlay.classList.add('visible');
-          overlay.classList.remove('invisible');
-          overlayImage.src = "img/nom-account.png";
-        })
-
-        sideImageThree.addEventListener("click", function(){
-          overlay.classList.add('visible');
-          overlay.classList.remove('invisible');
-          overlayImage.src = "img/nom-search.png";
-        })
-
-
-        x.addEventListener("click", function(){
-          overlay.classList.remove('visible');
-          overlay.classList.add('invisible');
-          overlayImage.src = "";
-        })
-      }
-    }
-
-    var x = window.matchMedia("(min-width: 768px)")
-    overlayCheck(x) // Call listener function at run time
-    x.addListener(overlayCheck) // Attach listener function on state changes
-=======
         <div class="content" data-aos="fade-up" >
           <h5>The Project</h5>
           <p>
-          To rename and re brand the organization that ____(what they do)_______, which was called Wellness Case Competition, a name that didn’t communicate the organizations function or the excitement it was meant to generate.</p>
+            This project was a group effort in my Expert Topics in Web Design course.  I was mainly responsible for designing the user interface of our website, which is a basic recipe sharing platform.  I designed each page using HTML and CSS and assisted slightly with the backend code.  Below are the original UX mockups for the website as well as a screen recording walking through each page.  The website can be visited <a href="https://noms.4470.plesk.digitalmediauconn.org/.">here</a></p>
         </div>
-        <div class="side-images xd-embed" data-aos="fade-up">
+        <div class="side-images" data-aos="fade-up">
           <div class="row">
            <iframe src="https://xd.adobe.com/embed/99b65185-6c8b-472c-6811-f91426b4946e-ef87/" frameborder="0" allowfullscreen></iframe>
          </div>
-          <video class="screen-recording" controls>
-            <source src="img/nom-vid.mp4" type="video/mp4">
+         <video class="screen-recording" controls>
+          <source src="img/nom-vid.mp4" type="video/mp4">
           </video>
-       </div>
-     </div>
-   </div>
+        </div>
+      </div>
 
- </article>
+    </article>
 
- <footer>
-  <p>&copy; 2020 Alexander F. Kunze. All rights reserved.</p>
-</footer>
+    <footer>
+      <p>&copy; 2020 Alexander F. Kunze. All rights reserved.</p>
+    </footer>
 
+    <script src="js/main.js?v=2.6.0"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script type="text/javascript">
+      AOS.init();
+      var myVar;
 
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
 
-<script src="js/main.js?v=2.4.0"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-</script>
-<script type="text/javascript">
-  AOS.init();
-  var myVar;
-
-  function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-  }
-
-  function showPage() {
-    document.getElementById("loader").style.opacity = "0";
-    AOS.init({
-      duration: 800,
-    });
-  }
-
->>>>>>> Stashed changes
+      function showPage() {
+        document.getElementById("loader").style.opacity = "0";
+        AOS.init({
+          duration: 800,
+        });
+      }
 
     // BACK HOME
 
