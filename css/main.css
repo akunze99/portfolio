@@ -143,21 +143,15 @@ svg {
 }
 
 #svg1 {
+	display: none;
 	fill:#B4E3FF;
 	filter:url('#f1');
 }
 
 #svg2 {
+	display: none;
 	fill:#3998D1;
 	filter:url('#f2');
-}
-
-#svg3 {
-	display: none;
-	top:30%;
-	left:9%;
-	fill:#3998D1;
-	width:50%;
 }
 
 /* Name and Skills */
@@ -331,8 +325,18 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+#work10 {
+	background-image: url('../img/pound.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 /* About Me */
 
+#description {
+	padding:5px 10px;
+}
 
 .button {
 	font-family: 'Roboto';
@@ -540,6 +544,10 @@ h2, h4 {
 	background-color: white;
 }
 
+.screen-recording {
+	margin-top:60px;
+	width:100%;
+}
 
 .content {
 	padding:20px;
@@ -625,9 +633,11 @@ h2, h4 {
 	}
 
 	#svg1 {
+		display: block;
 	}
 
 	#svg2 {
+		display: block;
 		top:-125px;
 		height:125px;
 		z-index: -999;
@@ -777,6 +787,15 @@ h2, h4 {
 	.side-images {
 		margin-bottom: 100px;
 		width:50%;
+	}
+
+	.xd-embed {
+		width: 90%;
+	}
+
+	iframe {
+		height: 720px;
+		width: 1080px;
 	}
 
 	.side-images .row {
